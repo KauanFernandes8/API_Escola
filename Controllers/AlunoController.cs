@@ -110,7 +110,7 @@ namespace ProjetoEscola_API.Controllers
             catch 
             {
                 return this.StatusCode(StatusCodes.Status500InternalServerError,
-                "Falha no acesso ao excluir aluno.");
+                "Falha ao excluir aluno.");
             }
         }
     }
